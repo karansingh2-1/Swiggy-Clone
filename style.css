@@ -1,0 +1,250 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+
+nav {
+    height: 5.8vw; 
+    width: 100vw;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.09);
+    display: flex;
+    align-items: center;
+    position:fixed
+}
+
+nav .logo {
+    display: flex;
+    align-items: center;
+    padding-left: 5.5vw;
+    padding-top: 0.3vw;
+    gap: 3.4vw;
+    width: 38vw;
+}
+
+nav .other {
+    border-bottom: 2px solid black;
+    font-weight: 900;
+}
+
+nav .list {
+    display: flex;
+    align-items: center;
+    
+}
+
+nav .list ul  {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    gap: 3.5vw;
+}
+
+
+nav .list ul li a {
+    display: flex;
+    align-items: center;
+    gap: 0.8vw;
+}
+
+nav .list ul li a span {
+    font-size: 1.3vw;
+    color: #3d4152;
+}
+
+nav .list ul li a span:hover {
+    color: orange;
+    cursor: pointer;
+}
+
+main .mainlist {
+    margin-left: 13vw;
+    margin-right: 15vw;
+    padding-top: 6vw;
+    
+}
+
+main .heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 1vw;
+}
+
+main .heading .arrow {
+    display: flex;
+    align-items: center;
+}
+
+main .heading .arrow .arrows img{
+    height: 2.8vw;
+    width: 2.8vw;
+    fill: #3d4152;
+}
+
+main .images {
+    display: flex;
+    align-items: center;
+    gap: 1.5vw;
+    overflow-x: hidden;
+    margin-top: 0.5vw;
+}
+
+main .images .img1 {
+    margin-left: 1vw;
+}
+
+main .line {
+    margin-left: 13.5vw;
+    margin-right: 13.5vw;
+    margin-top: 3.1vw;
+    opacity: 0.3;
+}
+
+main .secondlist {
+    margin-left: 13vw;
+    margin-right: 15vw;
+    margin-top: 2vw;
+    display: flex;
+    flex-direction: column;
+}
+
+main .secondlist .images2 {
+    display: inline;
+}
+
+
+
+main .images2 .imag1 .imgwtext{
+    position: relative;
+    
+}
+
+
+main .images2 .imag1 .imgwtext .dishes{
+    height: 182px;
+    width: 273px;
+    border-radius: 15px;
+    object-fit:cover;
+}
+
+
+main .images2 .imag1 .imgwtext .price {
+    position: absolute;
+    bottom: 0.4vw;
+    left: 1vw;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+    font-size: 1.7vw;
+}
+/* 
+main .images2 .imag1 .about .first {
+    font-weight: 1000;
+}
+
+main .images2 .imag1 .about .second {
+    display: flex;
+    gap: 0.2vw;
+}
+
+main .images2 .imag1 .about .third {
+    color: rgba(2, 6, 12, 0.6);
+} */
+
+main .images2 .imag2 .imgwtext{
+    position: relative;
+    
+}
+
+main .images2 .imag2 .imgwtext .dishes{
+    height: 182px;
+    width: 273px;
+    border-radius: 15px;
+    object-fit:cover;
+}
+
+
+main .images2 .imag2 .imgwtext .price {
+    position: absolute;
+    bottom: 0.5vw;
+    left: 1vw;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+    font-size: 1.7vw;
+}
+
+/* main .images2 .imag2 .about .first {
+    font-weight: 1000;
+}
+
+main .images2 .imag2 .about .second {
+    display: flex;
+    gap: 0.2vw;
+}
+
+main .images2 .imag2 .about .third {
+    color: rgba(2, 6, 12, 0.6);
+} */
+
+main .images2 .imag3 .imgwtext{
+    position: relative;
+}
+
+
+main .images2 .imag3 .imgwtext .dishes{
+    height: 182px;
+    width: 273px;
+    border-radius: 15px;
+    object-fit:cover;
+}
+
+
+main .images2 .imag3 .imgwtext .price {
+    position: absolute;
+    bottom: 0.4vw;
+    left: 1vw;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+    font-size: 1.7vw;
+}
+
+main .images2 .imag3 .about .first {
+    font-weight: 1000;
+}
+
+main .images2 .imag3 .about .second {
+    display: flex;
+    gap: 0.2vw;
+}
+
+main .images2 .imag3 .about .third {
+    color: rgba(2, 6, 12, 0.6);
+}
+
+main .images2 .imag4 .imgwtext{
+    position: relative;
+}
+
+main .images2 .imag4 .imgwtext .dishes{
+    height: 182px;
+    width: 273px;
+    border-radius: 15px;
+    object-fit:cover;
+}
+
+
+main .images2 .imag4 .imgwtext .price {
+    position: absolute;
+    bottom: 0.5vw;
+    left: 1vw;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+    font-size: 1.7vw;
+}
+
+
+
+
+
