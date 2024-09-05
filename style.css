@@ -549,6 +549,10 @@ footer .boxes .boxline1 .b1 {
     font-weight: 600;
 }
 
+footer .boxes .boxline1 .b1:hover {
+    cursor: pointer;
+}
+
 footer .boxes .boxline2 {
     display: flex;
     align-items: center;
@@ -568,6 +572,10 @@ footer .boxes .boxline2 .b1 {
     align-items: center;
     color: rgba(2, 6, 12, 0.75);
     font-weight: 600;
+}
+
+footer .boxes .boxline2 .b1:hover {
+    cursor: pointer;
 }
 
 footer .boxes .boxline3 {
@@ -591,6 +599,10 @@ footer .boxes .boxline3 .b1 {
     font-weight: 600;
 }
 
+footer .boxes .boxline3 .b1:hover {
+    cursor: pointer;
+}
+
 footer .heading2 {
     margin-left: 11vw;
     margin-right: 13vw;
@@ -604,6 +616,10 @@ footer .explore .twobtn{
     gap: 2vw;
     margin-top: 1.5vw;
     margin-bottom: 8vw;
+}
+
+footer .explore .twobtn:hover {
+    cursor: pointer;
 }
 
 footer .explore .twobtn .btn {
@@ -648,6 +664,10 @@ footer .download .dbtn {
     gap: 2vw;
 }
 
+footer .download .dbtn:hover {
+    cursor: pointer;
+}
+
 footer .download .dbtn .img1 img {
     height: 64px;
     width: 201.55px;
@@ -659,14 +679,14 @@ footer .download .dbtn .img2 img {
 }
 
 footer .last {
-    width: 99vw;
+    width: 99.25vw;
     height: 36vw;
     background: rgb(2, 6, 12);
     padding-left: 18vw;
 }
 
 footer .last .swiggy .logo{
-    margin-top: 5vw;
+    padding-top: 5vw;
 }
 
 
