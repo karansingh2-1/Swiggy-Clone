@@ -56,15 +56,13 @@ nav .list ul li a span {
 }
 
 nav .list ul li a span:hover {
-    color: orange;
+    color: #ff5200;
     cursor: pointer;
 }
 
 main .mainlist {
     margin-left: 13vw;
     margin-right: 15vw;
-    padding-top: 6vw;
-    
 }
 
 main .heading {
@@ -93,8 +91,9 @@ main .images {
     display: flex;
     align-items: center;
     gap: 1.5vw;
-    overflow-x: hidden;
+    overflow-x: scroll;
     margin-top: 0.5vw;
+    scrollbar-width: thin;
 }
 
 main .images .img2:hover {
@@ -682,12 +681,144 @@ footer .last {
     width: 99.25vw;
     height: 36vw;
     background: rgb(2, 6, 12);
-    padding-left: 18vw;
+    padding-left: 17.5vw;
+    display: flex;
 }
 
 footer .last .swiggy .logo{
-    padding-top: 5vw;
+    padding-top: 3vw;
+    display: flex;
+    align-items: center;
+    color: white;
+    gap: 0.8vw;
+    font-size: 2vw;
+    line-height: 5px;
+    margin-bottom: 0.8vw;
+    font-weight: 600;
 }
+
+footer .last .swiggy .copyright {
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 1.3vw;
+    font-weight: 600;
+    letter-spacing: -1px;
+}
+
+footer .last .company {
+    padding-top: 3vw;
+    margin-left: 7vw;
+}
+
+footer .last .company .head {
+    color: white;
+    font-weight: 1000;
+    font-size: 1.4vw;
+}
+
+footer .last .company .list {
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 1.4vw;
+    font-weight: 500;
+    list-style-type: none;
+    margin-top: 1vw;
+    display: flex;
+    flex-direction: column;
+    gap: 1vw;
+    letter-spacing: -0.5px;
+}
+
+footer .last .contactandlegal {
+    display: flex;
+    flex-direction: column;
+    gap: 4.5vw;
+    
+}
+
+footer .last .contactandlegal .contact {
+    padding-top: 3vw;
+    margin-left: 7vw;
+}
+
+
+footer .last .contactandlegal .contact .head {
+    color: white;
+    font-weight: 1000;
+    font-size: 1.4vw;
+}
+
+footer .last .contactandlegal .contact .list {
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 1.4vw;
+    font-weight: 500;
+    list-style-type: none;
+    margin-top: 1vw;
+    display: flex;
+    flex-direction: column;
+    gap: 1vw;
+    letter-spacing: -0.5px;
+}
+
+
+footer .last .contactandlegal .legal{
+    margin-left: 7vw;
+}
+
+footer .last .contactandlegal .legal .head {
+    color: white;
+    font-weight: 1000;
+    font-size: 1.4vw;
+}
+
+
+footer .last .contactandlegal .legal .list {
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 1.4vw;
+    font-weight: 500;
+    list-style-type: none;
+    margin-top: 1vw;
+    display: flex;
+    flex-direction: column;
+    gap: 1vw;
+    letter-spacing: -0.5px;
+}
+
+footer .last .deliver {
+    padding-top: 3vw;
+    margin-left: 7vw;
+}
+
+footer .last .deliver .head {
+    color: white;
+    font-weight: 1000;
+    font-size: 1.4vw;
+}
+
+footer .last .deliver .list {
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 1.4vw;
+    font-weight: 500;
+    list-style-type: none;
+    margin-top: 1vw;
+    display: flex;
+    flex-direction: column;
+    gap: 1vw;
+    letter-spacing: -0.5px;
+}
+
+footer .last .deliver .cities {
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 1.2vw;
+    font-weight: 500;
+    margin-top: 1.3vw;
+    letter-spacing: -0.5px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    height: 2vw;
+    width: 8vw;
+    border-radius: 0.4vw;
+    padding: 0.2vw;
+    padding-left: 0.5vw;
+}
+
 
 
 
